@@ -1,0 +1,42 @@
+
+
+.panel.content {
+	background-color: rgba(255, 255, 255, 0.07);
+    border: 1px solid rgba(238, 238, 238, 0.27);
+    color: #FFFFFF;
+	max-width: 800px;
+	margin-left: 10%;
+    margin-right: 10%;
+}
+
+.panel.content:focus {
+    border-color: #FFFFFF;
+    
+}
+
+
+#subscribeButton {
+    background-color: #4666DF;
+    border: medium none;
+    border-radius: 3px;
+    color: white;
+    font-family: "rubikbold";
+    font-size: 16pt;
+    padding: 10px 17px;
+}
+
+#subscribeButton:hover {
+    background-color: #5CACCA;
+}
+
+#subscribeField {
+    border: medium none;
+    border-radius: 2px;
+    color: #7A381E;
+    font-family: "rubikregular";
+    font-size: 16px;
+    height: 40px;
+    margin-right: 10px;
+    padding: 10px;
+    width: 350px;
+}

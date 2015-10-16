@@ -1,0 +1,39 @@
+<template>
+    
+        <div class="main" style="background-image: url('/images/party_background.jpg')">
+            <!--    Change the image source '/images/default.jpg' with your favourite image.     -->
+            <div class="cover blue" data-color="blue"></div>
+            <!--   You can change the black color for the filter with those colors: blue, green, red, orange       -->
+            <div class="container-fluid">
+           
+            <img class="logo content" src="/styles/svg/PRLogo_text.svg">
+           
+                <h1 class="header cursive">
+            Find the place for your next party! Safe and easy.
+
+        </h1>
+                <!--  H1 can have 2 designs: "logo" and "logo cursive"           -->
+                <div class="panel content">
+                    <h4 class="motto">Aquí se explica lo que va a proporcionar el app, así como la fecha de lanzamiento o alguna otra cosa.</h4>
+                </div>
+            </div>
+       
+  
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center content">
+                    <h1 class="subscribe cursive">Hear from us! </h1>
+                </div>
+            </div>
+            <div class="row content">
+                <div class="col-md-12 text-center form-group">
+                    <form class="form-inline" role="form" submit.delegate="submit()">
+                        <input id="subscribeField" type="email" value.bind="eMail" class="form-control" id="fn" placeholder="Your email">
+                        <button id="subscribeButton" type="submit" class="btn btn-default">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+        </div>
+</template>
